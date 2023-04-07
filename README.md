@@ -1,2 +1,3 @@
 # Folder-Manager
  
+This repo creates different directories to organize files based on their file type. It then iterates over the files in a download folder and moves them to the corresponding directories based on their file extension. For example, image files such as .png, .jpg, .jpeg, .gif, and .webp will be moved to the "image" folder, while .exe, .apk, and .msi files will be moved to the "exe" folder, and so on. The shutil module is used to perform the actual file movement.
